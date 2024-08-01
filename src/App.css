@@ -1,0 +1,104 @@
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+  overflow: hidden;
+}
+
+.App {
+  text-align: center;
+  max-width: 600px;
+  width: 100%;
+  max-height: 90vh;
+  overflow-y: auto;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+
+#map {
+  cursor: pointer;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+}
+
+
+#distance {
+  margin-top: 20px;
+}
+
+#distance h1 {
+  font-size: 1.5em;
+  color: #555;
+}
+
+
+#gamesWonContainer {
+  max-height: 200px;
+  overflow-y: auto;
+  margin-top: 20px;
+}
+
+#gamesWonContainer ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+#gamesWonContainer li {
+  margin: 5px 0;
+}
+
+
+.Toastify__toast {
+  font-size: 1em;
+  border-radius: 5px;
+}
+
+.Toastify__toast--success {
+  background-color: #4caf50;
+}
+
+.Toastify__toast--error {
+  background-color: #f44336;
+}
+
+.Toastify__toast--warning {
+  background-color: #ff9800;
+}
+
+.Toastify__toast--info {
+  background-color: #2196f3;
+}
+
+.Toastify__close-button {
+  color: white;
+}
+
+.Toastify__progress-bar {
+  background-color: white;
+}
+
+
+button {
+  background-color:#f44336;
+  color:#2196f3;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 20px;
+}
